@@ -5,10 +5,11 @@ author:
 build_requires:
   AnyEvent: '7.00'
   Test::More: '0.98'
+  Test::TCP: '2.06'
 configure_requires:
   Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Minilla/v2.2.0, CPAN::Meta::Converter version 2.142060'
+generated_by: 'Minilla/v2.3.0, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,7 +28,7 @@ no_index:
 provides:
   Protocol::TLS:
     file: lib/Protocol/TLS.pm
-    version: '0.02'
+    version: '0.03'
   Protocol::TLS::Alert:
     file: lib/Protocol/TLS/Alert.pm
   Protocol::TLS::Application:
@@ -72,5 +73,5 @@ resources:
   bugtracker: https://github.com/vlet/p5-Protocol-TLS/issues
   homepage: https://github.com/vlet/p5-Protocol-TLS
   repository: git://github.com/vlet/p5-Protocol-TLS.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:CRUX

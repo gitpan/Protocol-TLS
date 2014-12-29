@@ -4,6 +4,8 @@ LICENSE
 META.json
 README.md
 cpanfile
+examples/anyevent-tls-client.pl
+examples/anyevent-tls-server.pl
 lib/Protocol/TLS.pm
 lib/Protocol/TLS/Alert.pm
 lib/Protocol/TLS/Application.pm
@@ -27,9 +29,8 @@ t/00_compile.t
 t/01_handshake.t
 t/02_server.t
 t/03_benchmark.t
-t/04_client.t
 t/05_constants.t
-t/06_server.t
+t/07_client_server.t
 t/lib/TLSTest.pm
 t/test.crt
 t/test.key
